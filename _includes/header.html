@@ -10,28 +10,17 @@
   }
 </style>
 <header class="bg-gradient near-white pa4">
-  {% include nav.html %}
-
   <div class="ph3 mv5">
     <div class="tc">
       <h1 class="f-subheadline mv1 fw9 serif tc white">{{site.header.title}}</h1>
       <h2 class="f3 fw1 tc near-white">{{site.header.subtitle}}</h2>
     </div>
     <div class="tc mv5">
-      <a href="#download" class="f3 link no-underline br-pill bg-animate hover-bg-gold hover-white ba b--white ph1 ph5-ns pv2 pv3-ns mb2 dib white page-scroll">Get a Quote!</a>
-    </div>
-  </div>
-
-  <div class="w-75 center">
-    <div class="device-container mt4-ns">
-      <div class="device-mockup macbook portrait white">
-        <div class="device">
-          <div class="screen">
-            <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-            <img src="img/ios10-iphone7-home-screen-camera-app.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-      </div>
+      {% for page in site.pages %}
+      {% if page.path contains "quote" %}
+        <a href="{{page.url}}" class="f3 link no-underline br-pill bg-animate hover-bg-gold hover-white ba b--white ph1 ph5-ns pv2 pv3-ns mb2 dib white page-scroll">{{page.title}}</a>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </header>

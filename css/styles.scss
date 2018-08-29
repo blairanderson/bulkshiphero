@@ -19,6 +19,12 @@ $brand-facebook: #3b5998;
 $brand-google-plus: #dd4b39; // IMPORT TACHYONS YOLO // $import "tachyons-sass/tachyons";
 body {
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
+  .green {
+    color: #8bd746;
+  }
+  .bg-green {
+    background-color: #8bd746;
+  }
 }
 h1,
 h2,

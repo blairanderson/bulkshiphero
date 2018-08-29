@@ -1,31 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Web Launchr - FREE Tachyons HTML Web Landing Page Template
-brand_name: Web Launchr
+title: Bulk Ship Hero - Mail Merge UPS / FEDEX / USPS Shipment Labels Made Easy
+brand_name: BulkShipHero
 header:
-  title: Web Launchr Landing Page
-  subtitle: Free Template to help showcase beautiful, shiny, web app!
-ios_store_link: "#"
-android_store_link: "#"
-email: feedback@tachyonstemplates.com
-download-link: "https://www.tachyonstemplates.com/template-overviews/tachyons-web-launchr/"
+  title: Mail Merge Shipments
+  subtitle: Upload Recipient Addresses, Download Labels or have us Mail For You!
+email: sales@bulkshiphero.com
 description: > # a simple web app launch site built using tachyons
-baseurl: "/tachyons-web-launchr" # the subpath of your site, e.g. /blog
-url: "http://www.blairanderson.co" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "https://www.bulkshiphero.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:year/:month/:day/:title/
 social-icons:
  - title: Facebook
    url: https://facebook.com/example

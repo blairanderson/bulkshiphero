@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://bulkshiphero.netlify.com/* https://www.bulkshiphero.com/:splat 301!
